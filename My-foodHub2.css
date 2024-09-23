@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.My-container2 {
+  background-image: url(https://images3.alphacoders.com/109/1097928.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 40px;
+  height: 500px;
+  overflow: hidden;
+  width: 700px;
+  display: flex;
+  color: black;
+}
+.My-container2 a{
+  text-decoration: none;
+  color: white;
+}
+.My-cont-headings {
+  margin-left: 120px;
+}
+.My-cont-headings h1 {
+  margin-top: 100px;
+   color: white;
+  font-family: lobster;
+  
+}
+.My-cont-headings h1:hover {
+  color: red;
+  transition: 2s;
+}
+.My-heading {
+  font-size: 80px;
+  color: white;
+}
+.para {
+  margin-top: 50px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 20px;
+  font-size: 20px;
+}
+.My-order-button {
+  padding: 20px;
+  width: 200px;
+  background-color: orange;
+  color: black;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.My-order-button:hover{
+  background-color: red;
+  transition: 1s;
+}
+.My-link {
+  margin-top: 50px;
+}
+.My-link a {
+  font-size: 17px;
+  text-align: center;
+  justify-content: center;
+}
+.My-link:hover {
+  background-color: wheat;
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  transition: 0.5s;
+}
+.My-link a {
+  text-decoration: none;
+  color: white;
+}
+.options{
+  display: flex;
+  margin-left: 550px;
+}
+.choose{
+  margin-left: 50px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.choose:hover{
+  text-decoration: underline;
+  color: red;
+}
+.Restraunt-page{
+  margin-top: 100px;
+  background-color: whitesmoke;
+  height: 40rem;
+  width: 700px;
+  align-items: center;
+  margin-left: 50px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px black;
+}
+.My-Restaurant h1{
+   text-align: center;
+   font-size: 50px;
+   margin-top: 50px;
+   font-family: cursive;
+}
+.My-Restaurant h2{
+  text-align: center;
+   font-size: 30px;
+   margin-top: 50px;
+   font-family: cursive;
+}
+.My-Restaurant hr{
+  width: 1000px;
+  margin-left: 250px;
+}
+.Restraunt-page:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px whitesmoke;
+}
+.Restraunt-page img{
+  border-radius: 30px 30px 0px 0px;
+
+}
+.Restraunt-page h3{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.Restraunt-page p{
+  margin-left: 30px;
+}
+.Restaurant-flex{
+  display: flex;
+}
+.Restaurant-info{
+  display: flex;
+}
+.info{
+  margin-left: 100px;
+}
+.info button{
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: red;
+  border: none;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.info p{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.Delivery{
+  /* margin-top: 50px; */
+  background-color: rgb(249, 237, 216);
+  height: 40rem;
+  width: 1900px;
+  /* background-image: url(https://img.freepik.com/premium-photo/orange-abstract-background-rough-textured-tangerine-surface_134398-20581.jpg?w=1060); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Delivery-flex{
+  display: flex;
+}
+.Cycling-man{
+  margin-top: 100px;
+}
+.Delivery h1{
+  text-align:start;
+  margin-left: 200px;
+  margin-top: 150px;
+  font-size: 55px;
+  width: 700px;
+}
+.Delivery p{
+  text-align:start;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.Delivery button{
+  text-align:start;
+  margin-left: 200px;
+  margin-top: 50px;
+  border: 2px solid red;
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+}
+.Delivery button:hover{
+  background-color: blue;
+  color: white;
+  transition: 1s;
+}
+@media only screen and (min-width: 450px){
+  .My-container2 {
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 40px;
+    height: 750px;
+    overflow: hidden;
+    width: 1900px;
+  }
+  .Restraunt-page{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    height: 40rem;
+    width: 700px;
+    align-items: center;
+    margin-left: 150px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+  }
+  .Restaurant-flex{
+    margin-left: 20px;
+  }
+  .Cycling-man{
+    margin-top: 100px;
+  }
+  .Delivery{
+    /* margin-top: 70px; */
+    background-color: rgb(249, 237, 216);
+    height: 40rem;
+    /* background-image: url(https://img.freepik.com/premium-photo/orange-abstract-background-rough-textured-tangerine-surface_134398-20581.jpg?w=1060); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1900px;
+  }
+  .My-Restaurant h1{
+    text-align: center;
+    margin-left: 700px;
+    width: 500px;
+  }
+
+  .My-Restaurant h2{
+    text-align: center;
+    margin-left: 700px;
+    width: 500px;
+  }
+  .footer{
+    width: 1900px;
+  }
+  .footer hr{
+    color: white;
+    width: 1300px;
+    margin-left: 150px;
+  }
+}
+@media only screen and (min-width : 1200px){
+  .Restraunt-page{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    height: 40rem;
+    width: 700px;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+  }
+  .Restaurant-flex{
+    display: flex;
+  }
+  .Cycling-man{
+    margin-top: 100px;
+    margin-right: 300px;
+  }
+  .My-Restaurant h1{
+    text-align: center;
+    margin-left: 300px;
+    width: 900px;
+  }
+
+  .My-Restaurant h2{
+    text-align: center;
+    margin-left: 500px;
+    width: 500px;
+  }
+  .Delivery{
+    /* margin-top: 70px; */
+    background-color: rgb(249, 237, 216);
+    height: 40rem;
+    /* background-image: url(https://img.freepik.com/premium-photo/orange-abstract-background-rough-textured-tangerine-surface_134398-20581.jpg?w=1060); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1900px;
+  }
+
+}
+  @media only screen and (max-width : 450px){
+    .My-container2 {
+      width: 1500px;
+      height: 800px;
+    }
+    .Restraunt-page{
+      width: 600px;
+    }
+    .Restaurant-flex{
+      margin-left: 60px;
+    }
+    .Restraunt-page img{
+      width: 600px;
+    }
+    .My-chef{
+      height: 50rem;
+      width: 1600px;
+    }
+    .My-chef img{
+      height: 300px;
+      margin-right: 200px;
+      width: 330px;
+    }
+    .Testimonials{
+      flex-direction: column;
+      width: 1000px;
+      margin-left: 400px;
+      
+    }
+    .Delivery{
+      background-color: rgb(249, 237, 216);
+      height: 40rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 1490px;
+    }
+    .My-Restaurant h1{
+      text-align: center;
+      margin-left: 500px;
+      width: 500px;
+    }
+
+    .My-Restaurant h2{
+      text-align: center;
+      margin-left: 500px;
+      width: 500px;
+    }
+    .footer{
+      width: 1500px;
+    }
+    .footer hr{
+      color: white;
+      width: 1300px;
+      margin-left: 150px;
+    }
+  
+  }
+  .My-chef{
+    height: 30rem;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 150px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .My-chef2{
+    height: 30rem;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 150px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: orange;
+  }
+  .My-chef2 img{
+    margin-left: 100PX;
+    margin-top: 50px;
+    border-radius: 50%;
+  }
+  .My-chef2 h3{
+    margin-left: 130PX;
+    margin-top: 50px;
+  }
+  .My-chef2 h4{
+    margin-left: 60PX;
+  }
+  .My-chef img{
+    margin-left: 100PX;
+    margin-top: 50px;
+    border-radius: 50%;
+  }
+  .My-chef:hover{
+    background-color: orange;
+    transition: 1s;
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+  .My-chef2:hover{
+    background-color: orange;
+    transition: 1s;
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+ 
+  .My-chef h3{
+    margin-left: 130PX;
+    margin-top: 50px;
+  }
+  .My-chef h4{
+    margin-left: 60PX;
+  }
+  .svg{
+    margin-left: 150px;
+  }
+  .Testimonials{
+    display: flex;
+  }
+  .footer{
+    background-color: black;
+    height: 30rem;
+    margin-top: 150px;
+    background-image: url(https://siddharthpetro.com/wp-content/uploads/2019/09/Footer-Background-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer-flex{
+    display: flex;
+  }
+  .footer h2{
+    margin-left: 150px;
+  }
+  .footer h4{
+    margin-left: 150px;
+    color: white;
+    margin-top: 60px;
+  }
+  .footer p{
+    margin-left: 150px;
+    color: white;
+    margin-top: 10px;
+  }
+  .footer-info2{
+    margin-top: 60px;
+  }
+  .lastInfo{
+    flex-direction: column;
+  }
+  .footer hr{
+    color: white;
+    width: 1300px;
+    margin-left: 150px;
+  }
+  #Caffee{
+    display: none;
+  }
+  #Veg-cont{
+    display: none;
+  }

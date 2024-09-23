@@ -1,0 +1,191 @@
+.container1{
+    margin-top: 85px;
+    margin-left: 300px;
+}
+.container1 button{
+    width: 80px;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 5px;
+}
+.container1 h1{
+    font-size: 50px;
+}
+.Restaurant-img-flex{
+    display: flex;
+}
+.Restaurant-img2 img{
+    margin-left: 2px;
+    height: 180px;
+    width: 400px;
+    margin-top: 2px;
+}
+.heading-flex{
+    display: flex;
+}
+.heading-flex button{
+    margin-left: 10px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: red;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+
+}
+.button-flex{
+    margin-left: 400px;
+}
+.Orders{
+    margin-left: 300px;
+    display: flex;
+    position: static;
+    top: 50px;
+}
+.Orders hr{
+    width: 300px;
+}
+.Orders-flex{
+    display: flex;
+    border-bottom: 1px solid red;
+    width: 1000px;
+}
+.Orders-flex :nth-child(1){
+    margin-top: 20px;
+    font-size: 30px;
+}
+.Orders-flex :nth-child(2){
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.Orders-flex :nth-child(3){
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.My-line{
+    width: 1000px;
+    margin-left: 300px;
+    color: red;
+}
+.Order-Online{
+    display: flex;
+    margin-left: 300px;
+    overflow: hidden;
+}
+.Menu-Items p{
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+}
+.Menu-Items p:hover{
+    background-color: rgb(249, 214, 214);
+    border-right: 5px solid red;
+}
+.My-Items{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.My-Items h3{
+    margin-left: 40px;
+}
+
+.Food-Items{
+    border-left: 1px solid red;
+}
+.Food-Items h3{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: 1px;
+}
+.Food-Items p{
+    margin-left: 50px;
+}
+.My-Items img{
+    border-radius: 10px;
+}
+.My-Items button{
+   margin-top: 100px;
+   position: absolute;
+   margin-left: 25px;
+   padding: 8px;
+   border: none;
+   border-radius: 20px; 
+}
+.My-Items button:hover{
+    background-color: red;
+    color: white;
+}
+.Ratings{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: -85px;
+}
+.Price{
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: -95px;
+}
+.Ratings2{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: -180px;
+}
+.Price2{
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: -95px;
+}
+.Biryani{
+    display: none;
+}
+.Biryani h3{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: 1px;
+}
+.Biryani p{
+    margin-left: 50px;
+}
+.Lunch{
+    display: none;
+}
+.Lunch h3{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: 1px;
+}
+.Lunch p{
+    margin-left: 50px;
+}
+.Pizza{
+    display: none;
+}
+.Pizza h3{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: 1px;
+}
+.Pizza p{
+    margin-left: 50px;
+}
+.DimsumNonVeg{
+    display: none;
+}
+.DimsumNonVeg h3{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: 1px;
+}
+.DimsumNonVeg p{
+    margin-left: 50px;
+}
+.Restaurant-Menu{
+    margin-left: 300px;
+    display: none;
+}
