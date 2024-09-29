@@ -3,6 +3,7 @@ const OrderOnline2 = document.getElementById('Order-Online2');
 const Menu = document.getElementById('Menu');
 const MyMenu = document.getElementById('Restaurant-Menu');
 const Riders = document.getElementById('Riders');
+const MyRiders = document.getElementById('MyRiders')
 const Cart = document.getElementById('My-cart');
 let MyCart = 0;
 const AddToCart = document.getElementById('AddToCart');
@@ -72,5 +73,17 @@ ClickDimsumNonVeg.addEventListener('click' , () => {
 
 Menu.addEventListener('click' , () =>{
    MyMenu.style.display = 'block';
+   OrderOnline2.style.display = 'none';
+   MyRiders.style.display = 'none';
+})
+OrderOnline.addEventListener('click',()=>{
+   MyMenu.style.display = 'none';
+   OrderOnline2.style.display = 'block';
+   OrderOnline2.style.display = 'flex';
+   MyRiders.style.display = 'none';
+})
+Riders.addEventListener('click',()=>{
+   MyRiders.style.display = 'block';
+   MyMenu.style.display = 'none';
    OrderOnline2.style.display = 'none';
 })

@@ -3,9 +3,7 @@
   padding: 0;
 }
 body{
-  background-image: url();
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 1450px;
 }
 .My-container2 {
   background-image: url(https://images3.alphacoders.com/109/1097928.jpg);
@@ -159,7 +157,7 @@ body{
   /* margin-top: 50px; */
   background-color: rgb(249, 237, 216);
   height: 40rem;
-  width: 1900px;
+  width: 1520px;
   /* background-image: url(https://img.freepik.com/premium-photo/orange-abstract-background-rough-textured-tangerine-surface_134398-20581.jpg?w=1060); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -205,7 +203,7 @@ body{
     margin-top: 40px;
     height: 750px;
     overflow: hidden;
-    width: 1900px;
+    width: 1520px;
   }
   .Restraunt-page{
     margin-top: 100px;
@@ -230,7 +228,7 @@ body{
     /* background-image: url(https://img.freepik.com/premium-photo/orange-abstract-background-rough-textured-tangerine-surface_134398-20581.jpg?w=1060); */
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1900px;
+    width: 1520px;
   }
   .My-Restaurant h1{
     text-align: center;
@@ -288,7 +286,7 @@ body{
     /* background-image: url(https://img.freepik.com/premium-photo/orange-abstract-background-rough-textured-tangerine-surface_134398-20581.jpg?w=1060); */
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1900px;
+    width: 1520px;
   }
 
 }
@@ -416,6 +414,7 @@ body{
     background-image: url(https://siddharthpetro.com/wp-content/uploads/2019/09/Footer-Background-Image.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1500px;
   }
   .footer-flex{
     display: flex;
