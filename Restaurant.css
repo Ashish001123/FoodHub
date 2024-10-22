@@ -110,9 +110,9 @@
     border-radius: 10px;
 }
 .My-Items button{
-   margin-top: 100px;
+   margin-top: 00px;
    position: absolute;
-   margin-left: 25px;
+   margin-left: -120px;
    padding: 8px;
    border: none;
    border-radius: 20px; 
@@ -121,15 +121,15 @@
     background-color: red;
     color: white;
 }
+
 .Ratings{
     flex-direction: column;
-    margin-top: 50px;
-    margin-left: -85px;
+    margin-left: 50px;
 }
 .Price{
     flex-direction: column;
-    margin-top: 80px;
-    margin-left: -95px;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 .Ratings2{
     flex-direction: column;
