@@ -16,6 +16,22 @@ body{
   display: flex;
   color: black;
 }
+.Login-btn{
+  background-color: red;
+  padding: 8px;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+.Home-btn{
+  background-color: orange;
+  padding: 8px;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
 .My-container2 a{
   text-decoration: none;
   color: white;

@@ -19,6 +19,7 @@
     height: 180px;
     width: 400px;
     margin-top: 2px;
+    display: flex;
 }
 .heading-flex{
     display: flex;
@@ -131,7 +132,7 @@
     margin-top: 10px;
     margin-left: 50px;
 }
-.Ratings2{
+/* .Ratings2{
     flex-direction: column;
     margin-top: 50px;
     margin-left: -180px;
@@ -140,7 +141,7 @@
     flex-direction: column;
     margin-top: 80px;
     margin-left: -95px;
-}
+} */
 .Biryani{
     display: none;
 }
