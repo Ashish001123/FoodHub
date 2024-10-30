@@ -87,3 +87,17 @@ Riders.addEventListener('click',()=>{
    MyMenu.style.display = 'none';
    OrderOnline2.style.display = 'none';
 })
+
+
+
+let cartItemCount = 0;
+
+function GoToCart(itemName, itemPrice) {
+    cartItemCount += 1;  // Increment the cart item count
+    updateCartDisplay();  // Update the display in navbar
+}
+
+function updateCartDisplay() {
+    const cartCountElement = document.getElementById('cart-count');
+    cartCountElement.textContent = `${cartItemCount} items`;  // Update the cart count display
+}

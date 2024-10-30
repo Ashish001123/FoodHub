@@ -94,7 +94,7 @@ body{
 }
 .options{
   display: flex;
-  margin-left: 550px;
+  margin-left: 650px;
 }
 .choose{
   margin-left: 50px;
@@ -129,7 +129,7 @@ body{
 }
 .My-Restaurant hr{
   width: 1000px;
-  margin-left: 250px;
+  margin-left: 400px;
 }
 .Restraunt-page:hover{
   transform: scale(1.05);
@@ -154,7 +154,10 @@ body{
   display: flex;
 }
 .info{
-  margin-left: 100px;
+  margin-left: 180px;
+}
+.info2{
+  margin-left: 140px;
 }
 .info button{
   height: 30px;
@@ -165,8 +168,21 @@ body{
   margin-left: 60px;
   margin-top: 10px;
 }
+.info2 button{
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: red;
+  border: none;
+  margin-left: 30px;
+  margin-top: 10px;
+}
 .info p{
   margin-left: 60px;
+  margin-top: 10px;
+}
+.info2 p{
+  margin-left: 30px;
   margin-top: 10px;
 }
 .Delivery{
@@ -219,7 +235,7 @@ body{
     margin-top: 40px;
     height: 750px;
     overflow: hidden;
-    width: 1520px;
+    width: 1700px;
   }
   .Restraunt-page{
     margin-top: 100px;
@@ -244,7 +260,7 @@ body{
     /* background-image: url(https://img.freepik.com/premium-photo/orange-abstract-background-rough-textured-tangerine-surface_134398-20581.jpg?w=1060); */
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1520px;
+    width: 1820px;
   }
   .My-Restaurant h1{
     text-align: center;
@@ -258,8 +274,19 @@ body{
     width: 500px;
   }
   .footer{
-    width: 1900px;
+    
+    height: 30rem;
+    margin-top: 150px;
+    width: 1700px;
+    background-image: url(https://c0.wallpaperflare.com/preview/184/811/591/blur-bread-rolls-counter-cup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+  .footer-flex{
+    width: 1800px;
+    background-size: 100%;
+  }
+  
   .footer hr{
     color: white;
     width: 1300px;
@@ -273,7 +300,7 @@ body{
     height: 40rem;
     width: 700px;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 80px;
     border-radius: 30px;
     box-shadow: 10px 10px 10px black;
   }
@@ -286,13 +313,13 @@ body{
   }
   .My-Restaurant h1{
     text-align: center;
-    margin-left: 300px;
+    margin-left: 400px;
     width: 900px;
   }
 
   .My-Restaurant h2{
     text-align: center;
-    margin-left: 500px;
+    margin-left: 600px;
     width: 500px;
   }
   .Delivery{
@@ -302,7 +329,7 @@ body{
     /* background-image: url(https://img.freepik.com/premium-photo/orange-abstract-background-rough-textured-tangerine-surface_134398-20581.jpg?w=1060); */
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1520px;
+    width: 1700px;
   }
 
 }
@@ -354,14 +381,28 @@ body{
       width: 500px;
     }
     .footer{
-      width: 1500px;
+      width: 1700px;
     }
     .footer hr{
       color: white;
       width: 1300px;
       margin-left: 150px;
     }
-  
+    .My-chef{
+      display: none;
+    }
+    .My-chef2{
+      display: none;
+    }
+    .feedback{
+      margin-top: 150px;
+      display: flex;
+      background-image: url(https://c0.wallpaperflare.com/preview/184/811/591/blur-bread-rolls-counter-cup.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 1700px;
+      height: 600px;
+    }
   }
   .My-chef{
     height: 30rem;
@@ -422,15 +463,16 @@ body{
   }
   .Testimonials{
     display: flex;
+   
   }
   .footer{
-    background-color: black;
+    
     height: 30rem;
     margin-top: 150px;
-    background-image: url(https://siddharthpetro.com/wp-content/uploads/2019/09/Footer-Background-Image.png);
+    background-image: url(https://c0.wallpaperflare.com/preview/184/811/591/blur-bread-rolls-counter-cup.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1500px;
+    width: 1700px;
   }
   .footer-flex{
     display: flex;
@@ -465,3 +507,74 @@ body{
   #Veg-cont{
     display: none;
   }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5);; /* Black w/ opacity */
+    text-align: center;
+    border-radius: 50%;
+}
+.modal-content {
+    background-color: blue;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    color: white;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.feedback{
+  margin-top: 150px;
+  display: flex;
+  background-color: black;
+  background-image: url(https://c0.wallpaperflare.com/preview/184/811/591/blur-bread-rolls-counter-cup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1700px;
+  height: 600px;
+}
+.feedback img{
+  margin-left: 300px;
+  margin-top: 50px;
+  height: 550px;
+}
+.feedback button{
+  padding: 20px;
+  width: 200px;
+  border-radius: 30px;
+  background-color: red;
+  border: none;
+  margin-top: 50px;
+  margin-left: 100px;
+  color: white;
+}
+.feedback h3{
+  margin-top: 200px;
+  font-size: 45px;
+  margin-left: 100px;
+  font-family: cursive;
+  color: white;
+}

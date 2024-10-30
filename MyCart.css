@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    /* background-image: url(https://wallpapers.com/images/featured/food-4k-1pf6px6ryqfjtnyr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#cart-items {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.cart-item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item img {
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.cart-item h4 {
+    margin: 0;
+    color: #333;
+}
+
+.quantity-controls {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.quantity-controls button {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    margin: 0 10px;
+    margin-left: 10px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quantity-controls button:hover {
+    background-color: #e0a800;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #28a745;
+}
+
+.remove-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+    background-color: #c82333;
+}
+
+.total {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    margin-left: 680px;
+    
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Cshop{
+    text-decoration: none;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 600px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}

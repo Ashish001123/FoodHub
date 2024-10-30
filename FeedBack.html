@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Note App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #007bff;
+        }
+
+        nav .navbar-brand,
+        nav .nav-link {
+            color: #fff !important;
+        }
+
+        .container {
+            max-width: 600px;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #007bff;
+        }
+
+        .btn-danger {
+            width: 100%;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        small.text-danger {
+            font-style: italic;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Feedback Form</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="DisplayFeedback.html">View Notes</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Feedback</h2>
+        <div>
+            <label for="title" class="form-label">Enter your name</label>
+            <input type="text" id="title" class="form-control" placeholder="Note Title">
+            <small class="text-danger" id="title-error"></small>
+        </div>
+        <div class="mt-3">
+            <label for="content" class="form-label">your feedback</label>
+            <textarea id="content" class="form-control" placeholder="Note Content" rows="5"></textarea>
+            <small class="text-danger" id="content-error"></small>
+        </div>
+        <div class="mt-4">
+            <button class="btn btn-danger" onclick="addNote()">Add Note</button>
+        </div>
+    </div>
+
+    <script>
+        function addNote() {
+            let title = document.getElementById("title").value;
+            let content = document.getElementById("content").value;
+            let hasError = false;
+
+            if (title === "") {
+                document.getElementById("title-error").innerHTML = "Title is required";
+                hasError = true;
+            } else {
+                document.getElementById("title-error").innerHTML = "";
+            }
+
+            if (content === "") {
+                document.getElementById("content-error").innerHTML = "Content is required";
+                hasError = true;
+            } else {
+                document.getElementById("content-error").innerHTML = "";
+            }
+
+            if (hasError) return;
+
+            let notes = JSON.parse(localStorage.getItem('notes')) || [];
+            notes.push({ id: Date.now(), title: title, content: content }); 
+            localStorage.setItem('notes', JSON.stringify(notes));
+
+            
+            document.getElementById("title").value = "";
+            document.getElementById("content").value = "";
+        }
+    </script>
+</body>
+
+</html>

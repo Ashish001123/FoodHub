@@ -24,6 +24,7 @@
 .heading-flex{
     display: flex;
 }
+
 .heading-flex button{
     margin-left: 10px;
     width: 80px;
@@ -35,6 +36,12 @@
     color: white;
 
 }
+.btn button{
+    background-color: red;
+    color: white;
+    width: 100px;
+    border: none;
+}
 .button-flex{
     margin-left: 400px;
 }
@@ -43,6 +50,7 @@
     display: flex;
     position: static;
     top: 50px;
+    cursor: pointer;
 }
 .Orders hr{
     width: 300px;
@@ -194,3 +202,144 @@
     margin-left: 300px;
     display: none;
 }
+.Rider-details{
+    background-color: whitesmoke;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+.Rider-flex{
+    display: flex;
+}
+.Rider-details-flex{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.Rider-details-flex button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+}
+
+
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 768px) {
+      
+}
+
+@media (max-width: 576px) {
+    .container1{
+        margin-top: 85px;
+        margin-left: 0px;
+    }
+    
+    .Orders{
+        margin-left: 0px;
+    }
+    .Order-Online{
+        margin-left: 0px;
+    }
+    .Restaurant-img img{
+        height: 600px;
+        margin-left: 20px;
+    }
+    .Restaurant-img2 img{
+        height: 300px;
+        width: 550px;
+    }
+    .heading-flex h1{
+        font-size: 105px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    p{
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .btn button{
+        height: 70px;
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(1){
+        margin-top: 30px;
+        font-size: 60px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(2){
+        margin-top: 30px;
+        font-size: 60px;
+        margin-left: 50px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(3){
+        margin-top: 30px;
+        font-size: 60px;
+        margin-left: 50px;
+        margin-left: 20px;
+    }
+    .Menu-Items p{
+        font-size: 30px;
+        cursor: pointer;
+        margin-top: 50px;
+        width: 300px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .My-Items img{
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+    }
+    .My-Items button{
+        margin-top: 60px;
+        position: absolute;
+        margin-left: -250px;
+        background-color: red;
+        color: white;
+        padding: 20px;
+        width: 200px;
+        border: none;
+        border-radius: 20px; 
+     }
+     .My-Items h3{
+        margin-left: 40px;
+        font-size: 50px;
+    }
+    .Price{
+        font-size: 40px;
+    }
+    .footer{
+        height: 100vh;
+    }
+    .footer p{
+        font-size: 30px;
+    }
+    .footer h4{
+        font-size: 30px;
+    }
+    .heading{
+        font-size: 60px;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delice Restaurant</title>
+    <link rel="stylesheet" href="Restaurant.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="My-foodHub2.css">
+</head>
+<div>
+  <section class="My-section1">
+    <div>
+        <nav class="navbar navbar-dark bg-dark  fixed-top">
+            <div class="container-fluid">
+              <h2
+              style="font-family: 'elinga'; font-weight: 600;color:red; font-size: 3rem"
+            >
+              FoodHub
+            </h2>
+                
+               <div class="My-links">
+                        <a class="navbar-brand" href="#" class="My-nav-links">
+                            <span><img src="icons/Address.png" alt="" height="20"></span>
+                            Your Address
+                        </a>
+                        <a class="navbar-brand" href="#Restaurant" class="My-nav-links">
+                            <span><img src="icons/My-Offer-icon.png" alt="" height="20"></span>
+                            Restaurants
+                        </a> 
+                        <a class="navbar-brand" href="#" class="My-nav-links" id="My-cart">
+                            <span><img src="icons/My-Cart-Icon (2).png" alt="" height="30"></span>
+                            0 items
+                        </a>
+                        <a class="navbar-brand" href="#" class="My-nav-links">
+                            <span><img src="Account.png" alt="" height="30"></span>
+                            Account
+                        </a>
+               </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <img src="images/Mywebsite Logo.png" alt="MyLogo" height="60px" /></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                  <div class="My-links-container" id="My-links-container2">
+                    <div class="My-link">
+                      <span><img src="icons/My-Home-icon.png" alt="" height="20" /></span>
+                      <a href="index.html" class="my-ancor-tag">Home</a>
+                    </div>
+                    <div class="My-link">
+                      <span><img src="icons/My-service-icon.png" alt="" height="20" /></span>
+                      <a href="contuctus.html" class="my-ancor-tag">Contact Us</a>
+                    </div>
+                    <div class="My-link">
+                      <span><img src="icons/My-Order-Icon.png" alt="" height="20" /></span>
+                      <a href="#" class="my-ancor-tag">Your Order</a>
+                    </div>
+                    <div class="My-link">
+                      <span><img src="icons/My-WishList-Icon.png" alt="" height="20" /></span>
+                      <a href="#" class="my-ancor-tag">Wishlist</a>
+                    </div>
+                    <div class="My-link">
+                      <span><img src="icons/cart-Icon-removebg-preview.png" alt="" height="20" /></span>
+                      <a href="#" class="my-ancor-tag">Cart</a>
+                    </div>
+                    <div class="My-link">
+                      <span><img src="icons/My-location-icon.png" alt="" height="20" /></span>
+                      <a href="#" class="my-ancor-tag">Address</a>
+                    </div>
+                    <div class="My-link">
+                      <span><img src="icons/My-Help-icon.png" alt="" height="20" /></span>
+                      <a href="#" class="my-ancor-tag">Help</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+</section>
+    <div class="container1">
+      <div class="Restaurant-img-flex">
+        <div class="Restaurant-img">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height="363">
+        </div>
+        <div class="Restaurant-img2">
+          <img src="https://content.jdmagicbox.com/comp/def_content_category/restaurants/photo-1497644083578-611b798c60f3-restaurants-6-h85ts-250.jpg" alt="">
+          <img src="https://nolinskiparis.com/wp-content/uploads/2022/06/restaurant-nolinski-paris-5-etoiles-luxe-12-guillaume-de-laubier.jpg" alt="">
+        </div>
+      </div>
+      <div class="heading-flex">
+        <div>
+          <h1>Yeti-Himalyan<br> Restaurant</h1>
+        </div>
+        <div class="button-flex">
+          <button>4.3
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+          </button>
+          <button>3.3
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <p>South Indian, North Indian, Chinese, Continental, Desserts, Beverages, Sichuan <br>
+        Gandhi Nagar, Vellore <br>
+        Closed ||
+        Opens tomorrow at 7:30am</p>
+        <button>
+          Directions
+        </button>
+        <button>
+          <span><img src="" alt="" height="50"></span>
+          Bookmark</button>
+        <button>
+          <span><img src="" alt="" height="50"></span>
+          Share</button> 
+    </div>
+    <div class="Orders">
+      <div class="Orders-flex">
+          <p id="Order-Online" onclick="AddBorder('Order-Online')">Order Online</p>
+          <p id="Menu" onclick="AddBorder('Menu')">Menu</p>
+          <p id="Riders" onclick="AddBorder('Riders')">Our Riders</p>
+      </div>
+    </div>
+    <!-- <hr class="My-line"> -->
+    <div class="Order-Online" id="Order-Online2">
+      <div class="Menu-Items">
+        <p id="ClickBurger" onclick="ItemToggle('ClickBurger')">Specials Burgers</p>
+        <p id="ClickBiryani" onclick="ItemToggle('ClickBiryani')">Biryani</p>
+        <p id="ClickLunch" onclick="ItemToggle()">Lunch</p>
+        <p id="ClickPizza" onclick="ItemToggle()">Pizza</p>
+        <p id="ClickDimsumNonVeg" onclick="ItemToggle()">Dimsum Non-Veg</p>
+        <p onclick="ItemToggle()">Dimsum Veg</p>
+        <p onclick="ItemToggle()">Pasta</p>
+        <p onclick="ItemToggle()">Drinks (Beverages)</p>
+      </div>
+      <div class="Food-Items">
+        <div class="Burgers" id="Burgers" class="content">
+          <h3>Order Online</h3>
+            <p>Live Track your order. 30mins dilevery</p>
+          <div class="My-Items">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDq2U-lLsOFDRkoJseKSSHcApmFpiqz-iLw&s" alt="" height="150" width="150">
+             <div>
+              <h3>Burger</h3>
+              <div class="Ratings">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+                  <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                </svg>
+              </div>
+                <div class="Price">Rs 75</div>
+                <button id="AddToCart">Add to Cart</button>
+             </div>
+          </div>
+          <div class="My-Items">
+            <img src="https://recipes.net/wp-content/uploads/2023/05/hardees-double-cheeseburger-recipe_d48b79ef43b714e98a3ad95a7ab9e12e.jpeg" alt="" height="150" width="150">
+            <div>
+              <h3> Cheese Burger</h3>
+              <div class="Ratings">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+                  <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                </svg>
+              </div>     
+                <div class="Price">Rs 85</div>
+                <button>Add to Cart</button>  
+            </div>         
+          </div>
+          <div class="My-Items">
+            <img src="https://sinfullyspicy.com/wp-content/uploads/2023/09/1200-by-1200-images.jpg" alt="" height="150" width="150">
+            <div>
+              <h3>Chicken Burger</h3>
+            <div class="Ratings">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+                <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+              </svg>
+            </div>          
+            <div class="Price">Rs 95</div>
+            <button>Add to Cart</button> 
+            </div>        
+          </div>
+        </div>
+      </div>
+      <div class="Biryani" id="Biryani" class="content">
+        <h3>Biryani</h3>
+          <p>Live Track your order. 30mins dilevery</p>
+        <div class="My-Items">
+          <img src="https://www.whiskaffair.com/wp-content/uploads/2020/08/Veg-Biryani-2-3.jpg" alt="" height="150" width="150">
+          <div>
+            <h3>Biryani</h3>
+            <div class="Ratings">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+                <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+              </svg>
+            </div>
+            <div class="Price">Rs 70</div>
+            <button id="AddToCart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="My-Items">
+          <img src="https://4.imimg.com/data4/QT/WD/ANDROID-12102555/product-500x500.jpeg" alt="" height="150" width="150">
+          <div>
+            <h3>Dum Chicken Biryani</h3>
+          <div class="Ratings">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+              <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+            </svg>
+          </div>
+          <div class="Price">Rs 120</div>
+          <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="My-Items">
+          <img src="https://5.imimg.com/data5/ANDROID/Default/2022/12/VQ/XP/OZ/139435939/product-jpeg.jpg" alt="" height="150" width="150">
+          <div>
+            <h3>Chicken Biryani</h3>
+          <div class="Ratings">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+              <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+            </svg>
+          </div>
+          <div class="Price">Rs 160</div>
+          <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="Lunch" id="Lunch" class="content">
+        <h3>Lunch</h3>
+          <p>Live Track your order. 30mins dilevery</p>
+        <div class="My-Items">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlOfO1i3o3pjmgRm80C7Hicxc1qm8EZCbN4A&s" alt="" height="150" width="150">
+          <div>
+            <h3>Full Plate Thali</h3>
+            <div class="Ratings">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+                <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+              </svg>
+            </div>
+            <div class="Price">Rs 190</div>
+            <button id="AddToCart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="My-Items">
+          <img src="https://www.nithaskitchen.com/wp-content/uploads/2024/03/PXL_20240131_193822940.RAW-01.COVER_sel.jpg" alt="" height="150" width="150">
+          <div>
+            <h3>South full Thali</h3>
+            <div class="Ratings">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+                <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+              </svg>
+            </div>
+            <div class="Price">Rs 200</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="My-Items">
+          <img src="https://i.pinimg.com/originals/ef/45/7d/ef457d8163474a13e5c72b04ca9a813e.jpg" alt="" height="150" width="150">
+          <div>
+            <h3>Tamil full Thakli</h3>
+          <div class="Ratings">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+              <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+            </svg>
+          </div>
+          <div class="Price">Rs 250</div>
+          <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="Pizza" id="Pizza" class="content">
+        <h3>Pizza</h3>
+          <p>Live Track your order. 30mins dilevery</p>
+        <div class="My-Items">
+          <img src="https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg" alt="" height="150" width="150">
+          <div>
+            <h3>Classic Cheese</h3>
+            <div class="Ratings">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+                <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+              </svg>
+            </div>
+            <div class="Price">Rs 180</div>
+            <button id="AddToCart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="My-Items">
+          <img src="https://recipesblob.oetker.in/assets/d8a4b00c292a43adbb9f96798e028f01/1272x764/pizza-pollo-arrostojpg.jpg" alt="" height="150" width="150">
+          <div>
+            <h3>Chickenn Pizza</h3>
+          <div class="Ratings">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+              <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+            </svg>
+          </div>
+          <div class="Price">Rs 280</div>
+          <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="My-Items">
+          <img src="https://static.wixstatic.com/media/597497_39dfa709d3d845eeaf43eb692e93b31b~mv2.jpg/v1/fill/w_642,h_502,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image-empty-state.jpg" alt="" height="150" width="150">
+          <div>
+            <h3>Pepperoni Pizza</h3>
+          <div class="Ratings">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+              <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+            </svg>
+          </div>
+          <div class="Price">Rs 350</div>
+          <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="DimsumNonVeg" id="DimsumNonVeg" class="content">
+        <h3>Dimsum Non-Veg</h3>
+          <p>Live Track your order. 30mins dilevery</p>
+        <div class="My-Items">
+          <img src="https://www.thevellorekitchen.in/wp-content/uploads/2023/01/dimsum-non-veg-platter.jpg" alt="" height="150" width="150">
+          <div>
+            <h3>NonVeg Platter</h3>
+            <div class="Ratings">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+                <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+              </svg>
+            </div>
+            <div class="Price">Rs 180</div>
+            <button id="AddToCart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="My-Items">
+          <img src="https://kitchen53.in/wp-content/uploads/2023/02/vecteezy_tandoori-momo-veg-or-non-veg-in-red-and-cream-sauce-served_13754813_313-scaled.jpg" alt="" height="150" width="150">
+          <div>
+            <h3>Frozen Chicken</h3>
+            <div class="Ratings">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+                <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+              </svg>
+            </div>
+            <div class="Price">Rs 280</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="My-Items">
+          <img src="data:image/jpeg;base64,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" alt="" height="150" width="150">
+          <div>
+            <h3>Chicken DimSum</h3>
+          <div class="Ratings">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-half" viewBox="0 0 16 16">
+              <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+            </svg>
+          </div>
+          <div class="Price">Rs 350</div>
+          <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="Restaurant-Menu" id="Restaurant-Menu">
+       Menu
+    </div>
+    <div class="Riders" id="MyRiders">
+      <div class="Rider-flex">
+        <div class="Rider-details"></div>
+        <div>
+          
+        </div>
+      </div>
+      <div class="Rider-flex">
+        <div class="Rider-details"></div>
+        <div></div>
+      </div>
+      <div class="Rider-flex">
+        <div class="Rider-details"></div>
+        <div></div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+      <div class="footer-flex">
+        <div class="footer-info">
+          <h2
+          style="font-family: 'elinga'; font-weight: 600;color:red; font-size: 3rem"
+        >
+          FoodHub
+        </h2>
+        <h4>About FoodHub</h4>
+        <p>Who We Are <br>
+  
+          Blog<br>
+          
+          Work With Us<br>
+          
+          Investor Relations<br>
+          
+          Report Fraud<br>
+          
+          Press Kit<br>
+          
+          Contact Us</p>
+         </div>
+         <div class="footer-info2">
+          <h4>Foodverse</h4>
+          <p>
+          FoodHub<br>
+          
+          Blinkit<br>
+          
+          Feeding India<br>
+          
+          Hyperpure<br>
+          
+          FoodHub Live<br>
+          
+          Foodland<br>
+          
+          Weather Union
+          </p>
+         </div>
+         <div class="footer-info2">
+          <h4>For Restaurants</h4>
+          <p>
+          Partner With Us<br>
+  
+          Apps For You
+          </p>
+         </div>
+         <div class="footer-info2">
+          <h4>Learn More</h4>
+          <p>
+          Privacy<br>
+          
+          Security<br>
+          
+          Terms<br>
+          
+          Sitemap
+          </p>
+         </div>
+      </div>
+      <hr>
+       <p class="lastInfo">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 ©<br> FoodHub™ Ltd. All rights reserved.</p>
+    </div>
+    <script src="Restaurant.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
