@@ -18,6 +18,7 @@ body{
     background-position:center ;
 }
 
+
 .wrapper{
     width:420px;
     background:transparent;
@@ -27,7 +28,7 @@ body{
     color:#fff;
     border-radius: 10px;
     padding: 30px 40px;
-    margin-left: 350px;
+    margin-left: 200px;
 }
 
 .wrapper h1 {
@@ -118,3 +119,85 @@ body{
 .register-link p a:hover{
     text-decoration: underline;
 }
+.My-links{
+    display: flex;
+    margin-right: 300px;
+
+}
+.navbar-toggler{
+    display: none;
+}
+@media (min-width: 1200px) {
+    .wrapper{
+        margin-right: 0px;
+        margin-left: 550px;
+    }
+}
+
+@media (min-width: 992px){
+    .wrapper{
+        margin-right: 500px;
+        margin-top: 80px;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .My-links{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .wrapper{
+        margin-right: 750px;
+        margin-top: 80px;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper{
+        margin-right: 900px;
+        margin-top: 80px;
+    }
+    .My-links{
+        display: none;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+   
+}
+
+@media (max-width: 576px){
+       .wrapper{
+        justify-content: center;
+        margin-left: 1500px;
+        margin-top: 400px;
+        height: 600px;
+        width: 600px;
+        
+       }
+       .wrapper h1{
+        font-size: 100px;
+       }
+     
+    .btn{
+        margin-top: 50px;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+

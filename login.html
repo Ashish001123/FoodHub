@@ -30,7 +30,7 @@
                                 <span><img src="icons/My-Offer-icon.png" alt="" height="20"></span>
                                 Restaurants
                             </a> 
-                            <a class="navbar-brand" href="#" class="My-nav-links">
+                            <a class="navbar-brand" href="MyCart.html" class="My-nav-links">
                                 <span><img src="icons/My-Cart-Icon (2).png" alt="" height="30"></span>
                                 0 items
                             </a>
@@ -39,48 +39,82 @@
                                 Account
                             </a>
                             <a class="navbar-brand" href="#" class="My-nav-links">
-                              <a href="Register.html"><button class="Login-btn">Register</button></a>
+                              <a href="Login.html"><button class="Login-btn">Login</button></a>
                           </a>
-                          
                    </div>
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <img src="images/Mywebsite Logo.png" alt="MyLogo" height="60px" /></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                      <div class="My-links-container" id="My-links-container2">
+                        <div class="My-link">
+                          <span><img src="icons/Address.png" alt="" height="20" /></span>
+                          <a href="icons/Address.png" class="my-ancor-tag">Your Address</a>
+                        </div>
+                        <div class="My-link">
+                          <span><img src="icons/My-Offer-icon.png" alt="" height="20" /></span>
+                          <a href="icons/My-Offer-icon.png" class="my-ancor-tag">Restaurants</a>
+                        </div>
+                        <div class="My-link">
+                          <span><img src="icons/My-Cart-Icon (2).png" alt="" height="20" /></span>
+                          <a href="#" class="my-ancor-tag">0 Items</a>
+                        </div>
+                        <div class="My-link">
+                          <span><img src="icons/My-Offer-icon.png" alt="" height="20" /></span>
+                          <a href="Register.html" class="my-ancor-tag">Register</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
     </section>
 
 
-    <div class="wrapper">
-        <form action="" id="login-form">
-            <h1>Login</h1>
-            <div class="input-box">
-                <input type="email" placeholder="Your Email" required id="lemail">
-                <i class='bx bxs-user'></i>
+    
+        <div class="wrapper">
+            <form action="" id="login-form">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="email" placeholder="Your Email" required id="lemail">
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="password" required id="lpassword">
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="remember-forget">
+                    <label>
+                        <input type="checkbox">Remember Me
+                    </label>
+                    <a href="#">Forgor password?</a>
+                </div>
+                    <button type="submit" class="btn">
+                        Login
+                    </button>
+                <div class="register-link">
+                    <p>Don't have an account? 
+                        <a href="Register.html">
+                            Register
+                        </a>
+                    </p>
+                </div>
+            </form>
+            <div id="login-message">
+    
             </div>
-            <div class="input-box">
-                <input type="password" placeholder="password" required id="lpassword">
-                <i class='bx bxs-lock-alt'></i>
-            </div>
-            <div class="remember-forget">
-                <label>
-                    <input type="checkbox">Remember Me
-                </label>
-                <a href="#">Forgor password?</a>
-            </div>
-                <button type="submit" class="btn">
-                    Login
-                </button>
-            <div class="register-link">
-                <p>Don't have an account? 
-                    <a href="Register.html">
-                        Register
-                    </a>
-                </p>
-            </div>
-        </form>
-        <div id="login-message">
-
         </div>
-    </div>
+  
     
 </body>
 <script>
@@ -99,7 +133,7 @@
         .then(users => {
             const existingUser = users.find(user => user.email === email);
             if (!existingUser) {
-                loginMessage.innerText = "User does not exist";
+                loginMessage.innerText = "User does not exist.Please Register";
                 return;
             }
             if (existingUser.password !== password) {

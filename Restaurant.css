@@ -224,18 +224,118 @@
     color: white;
 }
 
-
+.My-links{
+    display: block;
+}
 
 @media (max-width: 1200px) {
     
 }
 
 @media (max-width: 992px) {
+    .container1{
+        margin-top: 85px;
+        margin-left: 0px;
+    }
     
-}
-
-@media (max-width: 768px) {
-      
+    .Orders{
+        margin-left: 0px;
+        width: 750px;
+    }
+    .Order-Online{
+        margin-left: 0px;
+    }
+    .Restaurant-img img{
+        height: 330px;
+        margin-left: 10px;
+    }
+    .Restaurant-img2 img{
+        height: 164px;
+        width: 300px;
+    }
+    .heading-flex h1{
+        font-size: 45px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    p{
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .Food-Items{
+        width: 750px;
+    }
+    .btn button{
+        height: 40px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .Orders-flex :nth-child(1){
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(2){
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(3){
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-left: 20px;
+    }
+    .Menu-Items p{
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 50px;
+        width: 300px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .My-Items img{
+        border-radius: 10px;
+        height: 150px;
+        width: 150px;
+    }
+    .My-Items button{
+        margin-top: 5px;
+        position: absolute;
+        margin-left: -145px;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        width: 140px;
+        border: none;
+        border-radius: 20px; 
+     }
+     .My-Items h3{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .Price{
+        font-size: 15px;
+    }
+    .footer{
+        height: 100vh;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+    .footer h4{
+        font-size: 30px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .button-flex{
+        display: none;
+    }
+    
 }
 
 @media (max-width: 576px) {
@@ -326,7 +426,210 @@
         height: 100vh;
     }
     .footer p{
+        font-size: 15px;
+    }
+    .footer h4{
         font-size: 30px;
+    }
+    .heading{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container1{
+        margin-top: 850px;
+        margin-left: 0px;
+    }
+    
+    .Orders{
+        margin-left: 0px;
+        width: 750px;
+    }
+    .Order-Online{
+        margin-left: 0px;
+    }
+    .Restaurant-img img{
+        height: 304px;
+        margin-left: 10px;
+    }
+    .Restaurant-img2 img{
+        height: 150px;
+        width: 250px;
+    }
+    .heading-flex h1{
+        font-size: 45px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    p{
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .Food-Items{
+        width: 750px;
+    }
+    .btn button{
+        height: 40px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .Orders-flex :nth-child(1){
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(2){
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(3){
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-left: 20px;
+    }
+    .Menu-Items p{
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 50px;
+        width: 300px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .My-Items img{
+        border-radius: 10px;
+        height: 150px;
+        width: 150px;
+    }
+    .My-Items button{
+        margin-top: 5px;
+        position: absolute;
+        margin-left: -145px;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        width: 140px;
+        border: none;
+        border-radius: 20px; 
+     }
+     .My-Items h3{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .Price{
+        font-size: 15px;
+    }
+    .footer{
+        height: 100vh;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+    .footer h4{
+        font-size: 30px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .button-flex{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .container1{
+        margin-top: 85px;
+        margin-left: 0px;
+    }
+    
+    .Orders{
+        margin-left: 0px;
+    }
+    .Order-Online{
+        margin-left: 0px;
+    }
+    .Restaurant-img img{
+        height: 600px;
+        margin-left: 20px;
+    }
+    .Restaurant-img2 img{
+        height: 300px;
+        width: 550px;
+    }
+    .heading-flex h1{
+        font-size: 105px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    p{
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .btn button{
+        height: 70px;
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(1){
+        margin-top: 30px;
+        font-size: 60px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(2){
+        margin-top: 30px;
+        font-size: 60px;
+        margin-left: 50px;
+        margin-left: 20px;
+    }
+    .Orders-flex :nth-child(3){
+        margin-top: 30px;
+        font-size: 60px;
+        margin-left: 50px;
+        margin-left: 20px;
+    }
+    .Menu-Items p{
+        font-size: 30px;
+        cursor: pointer;
+        margin-top: 50px;
+        width: 300px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .My-Items img{
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+    }
+    .My-Items button{
+        margin-top: 60px;
+        position: absolute;
+        margin-left: -250px;
+        background-color: red;
+        color: white;
+        padding: 20px;
+        width: 200px;
+        border: none;
+        border-radius: 20px; 
+     }
+     .My-Items h3{
+        margin-left: 40px;
+        font-size: 50px;
+    }
+    .Price{
+        font-size: 40px;
+    }
+    .footer{
+        width: 1550px;
+    }
+    .footer p{
+        font-size: 15px;
     }
     .footer h4{
         font-size: 30px;
