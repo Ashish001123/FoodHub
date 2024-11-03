@@ -682,14 +682,149 @@ body{
 .footer hr{
   margin-left: 20px;
 }
-/* .My-links{
+ /* .My-links{
   display: none;
-} */
-}
+}  */
+} 
 @media(max-width: 576px){
     .My-links{
   display: none;
 } 
 }
-
+@media  screen and (max-width:576px) {
+  .My-container2 {
+    margin-top: 40px;
+    height: 600px;
+    overflow: hidden;
+    width: 1550px;
+  }
+  .My-cont-headings h1 {
+    margin-top: 140px;
+    margin-left: -100px;
+    font-size: 90px;
+  }
+  .para {
+    margin-top: 50px;
+    margin-left: -100px;
+    font-size: 15px;
+  }
+  .My-order-button {
+   margin-left: -100px;
+  }
+  .Delivery{
+    width: 1550px;
+    background-color: black;
+    overflow: hidden;
+  }
+  .Cycling-man{
+    margin-top: 40px;
+    height: 20px;
+    margin-left: 700px;
+  }
+  .Delivery-flex{
+     margin-left: -100px;
+     flex-direction: column-reverse;
+  }
+  .Delivery-flex h1{
+    font-size: 60px;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: -100px;
+    color: white;
+  }
+  .Delivery-flex p{
+    font-size: 35px;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: white;
+  }
+  .Delivery-flex button{
+    margin-left: 150px;
+    height: 50px;
+    width: 100px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .My-Restaurant h1{
+    margin-right: 0px;
+    font-size: 70px;
+ }
+ .My-Restaurant h2{
+    margin-right: 0px;
+    font-size: 40px;
+ }
+ .My-Restaurant hr{
+   width: 1000px;
+   margin-left: 10px;
+ }
+ .options{
+  margin-left: 600px;
+  font-size: 700px;
+ }
+ .Restaurant-flex{
+  flex-direction: column;
+  width: 750px;
+ }
+ .Restraunt-page{
+  height: 60rem;
+  width: 1300px;
+  margin-left: 100px;
+  overflow:hidden;
+  margin-top: 50px;
+}
+.Restraunt-page h3{
+  margin-top: 30px;
+  font-size: 60px;
+}
+.Restraunt-page p{
+  margin-top: 30px;
+  font-size: 35px;
+}
+.Restraunt-page img{
+  height: 650px;
+  width: 1300px;
+}
+.feedback{
+  width: 1550px;
+  height: 600px;
+}
+.feedback img{
+  margin-left: 300px;
+  height: 500px;
+  margin-top: 50px;
+}
+.feedback button{
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.feedback h3{
+  font-size: 48px;
+  margin-left: 0px;
+}
+.footer{
+  width: 1550px;
+}
+.footer h2{
+  margin-left: 30px;
+  font-size: 0px;
+}
+.footer h4{
+  margin-left: 50px;
+  font-size: 40px;
+  color: white;
+  margin-top: 60px;
+}
+.footer p{
+  margin-left: 50px;
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.footer-info2{
+  margin-top: 60px;
+}
+.footer hr{
+  margin-left: 20px;
+}
+}
 
