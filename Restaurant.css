@@ -346,6 +346,9 @@
     .DimsumNonVeg{
         margin-left: -750px;
     }
+    #MyRiders{
+        margin-left: 50px;
+    }
     
 }
 
@@ -564,6 +567,9 @@
     }
     .DimsumNonVeg{
         margin-left: -750px;
+    }
+    #MyRiders{
+        margin-left: 50px;
     }
 }
 

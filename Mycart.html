@@ -13,7 +13,30 @@
 <div id="cart-items"></div>
 <div class="total" id="total-price">Total: Rs 0</div>
 <a href="Delice.html" class="Cshop">Continue Shopping</a>
-<a href="Delice.html" class="Cshop">Order Now</a>
+<button class="Cshop" id="order-now-btn" onclick="orderNow()">Order Now</button>
+
+<div id="rider-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <h2>Select a Rider</h2>
+      <div id="MyRiders">
+      </div>
+      <button class="Crider" onclick="closeModal()">Cancel</button>
+      <button class="Corider" id="confirm-rider-btn" onclick="confirmRider()">Confirm Rider</button>
+    </div>
+  </div>
+
+
+  <div id="payment-modal" class="lmodal" style="display: none;">
+    <div class="lmodal-content">
+      <h2>Complete Your Payment</h2>
+      <p>Payment information will go here</p>
+      <!-- Payment form or details can go here -->
+      <button onclick="closePaymentModal()">Close</button>
+      <button onclick="processPayment()">Proceed to Pay</button>
+    </div>
+  </div>
+
+
 <script src="script.js"></script>
 <script>
     function loadCart() {
