@@ -34,7 +34,7 @@ function loadRiders() {
 
         riderDiv.innerHTML = `
             <div class="Rider-details">
-                <img src="path/to/rider-image.jpg" alt="${rider.name}" class="rider-img">
+                <img src="https://wpportfoliodesigner.com/wp-content/uploads/2018/09/advisory-team-01.jpg" alt="${rider.name}" class="rider-img">
             </div>
             <div class="Rider-details-flex">
                 <h2>${rider.name}</h2>

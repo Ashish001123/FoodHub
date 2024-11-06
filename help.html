@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - Food Ordering</title>
+    <link rel="stylesheet" href="help-styles.css">
+    <style>
+        /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #3498db;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover, .nav-links .active {
+    color: #f39c12;
+}
+
+/* Main Content Styles */
+.help-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.help-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.help-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.help-header p {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-bottom: 40px;
+}
+
+.faq-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+/* FAQ Item Styles */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+    background-color: #2980b9;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: #f4f4f4;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Contact Us Section */
+.contact-us {
+    text-align: center;
+    padding: 30px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.contact-us p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-btn {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #34495e;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .help-container {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    .contact-btn {
+        width: 100%;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">FoodHub</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Delice.html">Menu</a></li>
+                <li><a href="help.html" class="active">Help</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Help Content -->
+    <main class="help-container">
+        <div class="help-header">
+            <h1>How Can We Help You?</h1>
+            <p>Find answers to your questions below or get in touch with us for more assistance.</p>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <!-- FAQ Item -->
+            <div class="faq-item">
+                <button class="faq-question">How do I place an order?</button>
+                <div class="faq-answer">
+                    <p>To place an order, browse our menu, select your desired items, and proceed to checkout. Follow the instructions to complete your order.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item -->
+            <div class="faq-item">
+                <button class="faq-question">Can I modify my order after placing it?</button>
+                <div class="faq-answer">
+                    <p>Once an order is placed, modifications are not possible. However, you can cancel the order within a short period if it hasn't been processed.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item -->
+            <div class="faq-item">
+                <button class="faq-question">What payment methods are accepted?</button>
+                <div class="faq-answer">
+                    <p>We accept credit/debit cards, online wallets, and cash on delivery depending on your location.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item -->
+            <div class="faq-item">
+                <button class="faq-question">How do I track my order?</button>
+                <div class="faq-answer">
+                    <p>Once your order is confirmed, you will receive a tracking link via email or SMS. You can track the delivery status in real time.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item -->
+            <div class="faq-item">
+                <button class="faq-question">What do I do if I have a problem with my order?</button>
+                <div class="faq-answer">
+                    <p>If you encounter any issues with your order, please contact our support team immediately at support@foodify.com, and we'll assist you promptly.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us Section -->
+        <div class="contact-us">
+            <h2>Need More Help?</h2>
+            <p>If you still have questions or need more assistance, feel free to reach out to our customer service team.</p>
+            <a href="contactus.html" class="contact-btn">Contact Us</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Foodify. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="help.js"></script>
+
+</body>
+
+<script>
+    // JavaScript to handle FAQ toggling
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all FAQ questions
+    const faqQuestions = document.querySelectorAll('.faq-question');
+
+    // Loop through each question and add event listener
+    faqQuestions.forEach(function(question) {
+        question.addEventListener('click', function() {
+            // Toggle the corresponding answer
+            const answer = this.nextElementSibling;
+
+            // If the answer is already displayed, hide it, else show it
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+            } else {
+                answer.style.display = 'block';
+            }
+        });
+    });
+});
+
+</script>
+</html>
