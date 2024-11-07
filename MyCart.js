@@ -23,6 +23,7 @@ function openModal() {
 }
 function closeModal() {
     document.getElementById("rider-modal").style.display = "none";
+    document.getElementById("cart-items").style.display = "none";
 }
 function loadRiders() {
     const riderContainer = document.getElementById("MyRiders");

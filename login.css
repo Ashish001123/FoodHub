@@ -140,8 +140,9 @@ body{
         margin-top: 80px;
     }
     .navbar-toggler{
-        display: block;
+        display: none;
     }
+    
     
 }
 
@@ -152,6 +153,9 @@ body{
     }
     .navbar-toggler{
         display: block;
+    }
+    .My-links{
+        display: none;
     }
 }
 

@@ -94,7 +94,7 @@ let cartItemCount = 0;
 
 function GoToCart(itemName, itemPrice) {
     cartItemCount += 1;  
-    updateCartDisplay();  
+    updateCartDisplay(); 
 }
 
 function updateCartDisplay() {

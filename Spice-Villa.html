@@ -28,7 +28,7 @@
                             <span><img src="icons/My-Offer-icon.png" alt="" height="20"></span>
                             Restaurants
                         </a> 
-                        <a class="navbar-brand" href="#" class="My-nav-links" id="My-cart">
+                        <a class="navbar-brand" href="Mycart.html" class="My-nav-links" id="My-cart">
                             <span><img src="icons/My-Cart-Icon (2).png" alt="" height="30"></span>
                             0 items
                         </a>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="My-link">
                       <span><img src="icons/cart-Icon-removebg-preview.png" alt="" height="20" /></span>
-                      <a href="#" class="my-ancor-tag">Cart</a>
+                      <a href="Mycart.html" class="my-ancor-tag">Cart</a>
                     </div>
                     <div class="My-link">
                       <span><img src="icons/My-location-icon.png" alt="" height="20" /></span>
@@ -171,14 +171,14 @@
                   <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
                 </svg>
               </div>
-                <div class="Price">Rs 75</div>
-                <button id="AddToCart">Add to Cart</button>
+                <div class="Price">Rs 85</div>
+                <button id="AddToCart" onclick="addToCart('Burger', 75, 'https://img.freepik.com/premium-psd/psd-png-special-burger_1049769-1752.jpg')">Add to Cart</button>
              </div>
           </div>
           <div class="My-Items">
             <img src="https://img.pikbest.com/templates/20240506/spirited-mothers-day-holiday-wishes-222024-png-images-png_10553885.jpg!w700wp" alt="" height="150" width="150">
             <div>
-              <h3> Cheese Burger</h3>
+              <h3>Veg Cheese Burger</h3>
               <div class="Ratings">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
                   <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
@@ -197,7 +197,7 @@
                 </svg>
               </div>     
                 <div class="Price">Rs 85</div>
-                <button>Add to Cart</button>  
+                 <button id="AddToCart" onclick="addToCart('veg Cheese Burger', 95, 'https://img.pikbest.com/templates/20240506/spirited-mothers-day-holiday-wishes-222024-png-images-png_10553885.jpg!w700wp')">Add to Cart</button>  
             </div>         
           </div>
           <div class="My-Items">
@@ -221,8 +221,8 @@
                 <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
               </svg>
             </div>          
-            <div class="Price">Rs 95</div>
-            <button>Add to Cart</button> 
+            <div class="Price">Rs 120</div>
+            <button id="AddToCart" onclick="addToCart('Chicken Burger', 120, 'https://www.favoritefoods.com/wp-content/uploads/2016/08/Burgers.png')">Add to Cart</button> 
             </div>        
           </div>
         </div>
@@ -252,7 +252,7 @@
               </svg>
             </div>
             <div class="Price">Rs 70</div>
-            <button id="AddToCart">Add to Cart</button>
+            <button id="AddToCart" onclick="addToCart('Gulab-Jamun', 70, 'https://www.warmoven.in/blog/wp-content/uploads/2024/07/Types-of-Indian-Sweets-and-Desserts.png')">Add to Cart</button> 
           </div>
         </div>
         <div class="My-Items">
@@ -277,7 +277,7 @@
             </svg>
           </div>
           <div class="Price">Rs 120</div>
-          <button>Add to Cart</button>
+          <button id="AddToCart" onclick="addToCart('Milk-cake', 120, 'https://www.jiomart.com/images/product/original/rv8cxomisv/indiyum-indian-sweets-mithai-milk-cake-200g-200g-x-2-product-images-orv8cxomisv-p598864592-1-202302270438.jpg?im=Resize=(420,420)')">Add to Cart</button> 
           </div>
         </div>
         <div class="My-Items">
@@ -302,7 +302,7 @@
             </svg>
           </div>
           <div class="Price">Rs 160</div>
-          <button>Add to Cart</button>
+          <button id="AddToCart" onclick="addToCart('Rasgulla', 160, 'https://www.palatesdesire.com/wp-content/uploads/2022/09/rasgulla-recipe@palates-desire.jpg')">Add to Cart</button> 
           </div>
         </div>
       </div>
@@ -622,6 +622,7 @@
        <p class="lastInfo">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 ©<br> FoodHub™ Ltd. All rights reserved.</p>
     </div>
     <script src="Restaurant.js"></script>
+    <script src="MyCart.js"></script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </html>

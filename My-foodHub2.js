@@ -22,14 +22,11 @@ Veg.addEventListener('click', ()=>{
 })
 
 
-
 document.addEventListener('DOMContentLoaded', function() {
     const testimonialCards = document.querySelectorAll('.testimonial-card');
-
-    // Set a delay to animate each testimonial card
     testimonialCards.forEach((card, index) => {
         setTimeout(() => {
             card.classList.add('visible');
-        }, index * 300); // stagger each card's appearance
+        }, index * 300);
     });
 });
